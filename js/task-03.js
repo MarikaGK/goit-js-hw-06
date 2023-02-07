@@ -22,7 +22,7 @@ gallery.style.gap = "10px";
 const newGallery = images.forEach((image) => {
   const newGalleryImage = document.createElement("li");
   const newImage = document.createElement("img");
-  newImage.setAttribute("url", image.url);
+  newImage.setAttribute("src", image.url);
   newImage.setAttribute("alt", image.alt);
   newGalleryImage.append(newImage);
   gallery.append(newGalleryImage);
