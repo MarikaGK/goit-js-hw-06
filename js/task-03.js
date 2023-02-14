@@ -27,3 +27,5 @@ const newGallery = images.forEach((image) => {
   newGalleryImage.append(newImage);
   gallery.append(newGalleryImage);
 });
+
+
