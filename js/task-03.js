@@ -24,8 +24,7 @@ const newGallery = images.forEach((image) => {
   const newImage = document.createElement("img");
   newImage.setAttribute("src", image.url);
   newImage.setAttribute("alt", image.alt);
+  newImage.setAttribute("height", "360px");
   newGalleryImage.append(newImage);
   gallery.append(newGalleryImage);
 });
-
-
